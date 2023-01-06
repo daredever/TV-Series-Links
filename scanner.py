@@ -12,6 +12,6 @@ def get_int(start: int, end: int, prompt: str) -> int:
             assert start <= value <= end
             return value
         except ValueError:
-            print('Value should be an integer')
+            print("Value should be an integer")
         except AssertionError:
-            print(f'Value should be an integer in range [{start}, {end}]')
+            print(f"Value should be an integer in range [{start}, {end}]")
